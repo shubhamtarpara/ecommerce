@@ -84,12 +84,14 @@ body {
     width: 105px;
     background-color: #939599;
 }
+
 .mobile-menu {
     position: absolute;
     width: 100%;
     left: 0;
     top: 150px;
 }
+
 .mid-container {
     display: flex;
     justify-content: space-evenly;
@@ -99,12 +101,12 @@ body {
 
 }
 
-.text-container{
+.text-container {
     margin-top: 184px;
     margin-left: 99px;
 }
 
-.title-text h1{
+.title-text h1 {
     color: #393D46;
     font-family: "Poppins", Sans-serif;
     font-size: 100px;
@@ -113,7 +115,7 @@ body {
     margin-bottom: 20px;
 }
 
-.title-text p{
+.title-text p {
     color: #68768E;
     font-family: "Poppins", Sans-serif;
     font-size: 16px;
@@ -122,37 +124,39 @@ body {
     margin-bottom: 20px;
 }
 
-.image-container{
+.image-container {
     padding-left: 125PX;
 
 }
+
 .image-container img {
-    margin-top: 70px;    
+    margin-top: 70px;
     width: 626px;
     height: 700px;
 }
 
-.price-tag{
+.price-tag {
     margin-top: 70px;
     margin-bottom: 42px;
-    
+
 }
 
-.first-price{
+.first-price {
     color: #68768E;
     font-family: "Poppins", Sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 1em;
 }
-.second-price{
+
+.second-price {
     color: #393D46;
     font-family: "Poppins", Sans-serif;
     font-size: 24px;
     font-weight: 600;
 }
 
-.shop-btn{
+.shop-btn {
     font-family: "Poppins", Sans-serif;
     font-size: 13px;
     font-weight: 500;
@@ -163,6 +167,266 @@ body {
     border-style: solid;
     border-width: 2px 2px 2px 2px;
     border-color: #393D46;
-    border-radius: 0px 0px 0px 0px;
     padding: 16px 62px 16px 62px;
+}
+
+.shop-container {
+    padding: 130px 150px 75px 150px
+}
+
+.shop-title {
+    margin-bottom: 20px;
+}
+
+.shop-title h1 {
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 2em;
+    margin: 0;
+}
+
+
+.shop-product {
+    display: grid;
+    gap: 30px 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.shop-cart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px 20px 20px;
+    background-color: #ffffff;
+
+}
+
+.img-squre {
+    width: 255px;
+    height: 250px;
+}
+
+.img-redius {
+    border-radius: 50%/35%;
+    width: 216px;
+    height: 300px;
+}
+
+.img-text {
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    text-align: center;
+
+}
+
+.img-text h3 {
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 25px 0 12px;
+}
+
+.img-text span {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+/* .line-through{
+    text-decoration: line-through;
+} */
+.buy-button {
+    width: 100%;
+    padding: 15px;
+}
+
+.buy-btn {
+    width: 100%;
+    background-color: #393D46;
+}
+
+.btn-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    color: white;
+}
+
+.overlay-container {
+    height: 453px;
+    background-color: #393d46;
+    margin: 130px 150px 0px 150px;
+}
+
+.overlay-container h1 {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 120px 90px 50px 90px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 430px);
+    gap: 0px 30px;
+    justify-content: center;
+    margin-top: -193px;
+    padding: 0px 90px 100px 90px;
+
+}
+
+.main-box {
+    width: 430px;
+    height: 343px;
+    margin: 0;
+    padding: 50px 40px 50px 40px;
+    background-color: white;
+}
+
+.box-icon {
+    margin-bottom: 35px;
+}
+
+.box-text h2 {
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.box-text p {
+    color: #68768E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8em;
+    margin-bottom: 33px;
+}
+
+.box-text h3 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #393D46;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-half {
+    width: 100%;
+    height: 502.25px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(246,247,251,1) 100%);
+    
+}
+
+.second-half {
+    width: 100%;
+    height: 502.25px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(238, 238, 240, 1) 100%);
+}
+
+.main-collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: -255px 150px 0px 150px; 
+    position: absolute;
+    z-index: 1;
+}
+
+.first-collection {
+   display: flex;
+    width: 786.5px;
+    height: 582.25px;
+    margin: 15px;
+    background-color: white;
+}
+
+.second-collection {
+    display: flex;
+    width: 786.5px;
+    height: 582.25px;
+    margin: 15px;
+    background-color: white;
+}
+
+.photo-collection img{
+    margin: 12px 12px 12px 0;
+    width: 381.25px;
+    height: 558.25px;
+}
+.text-collection{
+    padding: 40px 40px 50px 50px;
+}
+.text-collection h6{
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    margin-bottom: 100px;
+}
+.text-collection h3{
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+
+.text-collection p{
+    color: #68768E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.9em;
+    margin-bottom: 20px;
+}
+
+.photo-btn{
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #393D46;
+    background-color: rgba(57, 61, 70, 0);
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #393D46;
+    border-radius: 0px 0px 0px 0px;
+    padding: 16px 32px 16px 32px;
+}
+
+.photo-btn:hover{
+    background-color: #393d46;
+    color: #ffffff;
+}
+
+.brand-icon{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 300px;
 }
