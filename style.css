@@ -430,3 +430,11 @@ body {
     justify-content: space-evenly;
     padding-top: 300px;
 }
+
+.bottom-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 650px;
+    margin: 130px 150px 150px 150px;
+    background-color: white;
+}
