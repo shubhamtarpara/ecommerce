@@ -47,6 +47,25 @@ observer2.observe(document.querySelector('.overlay-container'));
 
 
 
+
+
+
+const fade1 = document.querySelector('.brand-icon')
+
+const observer5 = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      fade1.classList.add('fadeInUp');
+      return;
+    }
+  });
+});
+
+observer5.observe(document.querySelector('.second-half'));
+
+
+
+
 const fadeLeft = document.querySelector('.first-collection')
 
 const observer3 = new IntersectionObserver(entries => {
@@ -62,6 +81,8 @@ observer3.observe(document.querySelector('.main-collection'));
 
 
 
+
+
 const fadeRight = document.querySelector('.second-collection')
 
 const observer4 = new IntersectionObserver(entries => {
@@ -74,3 +95,52 @@ const observer4 = new IntersectionObserver(entries => {
 });
 
 observer4.observe(document.querySelector('.main-collection'));
+
+
+
+
+
+
+const fadeLeftText = document.querySelector('.bottom-text')
+
+const observer6 = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      fadeLeftText.classList.add('fadeInLeft');
+      return;
+    }
+  });
+});
+
+observer6.observe(document.querySelector('.bottom-container'));
+
+
+
+
+const fadeRightImg = document.querySelector('.bottom-img ')
+
+const observer7 = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      fadeRightImg.classList.add('fadeInRight');
+      return;
+    }
+  });
+});
+
+observer7.observe(document.querySelector('.bottom-container'));
+
+
+
+const fadeDown = document.querySelector('.end-img-container')
+
+const observer8 = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      fadeDown.classList.add('fadeInUp');
+      return;
+    }
+  });
+});
+
+observer8.observe(document.querySelector('.end-container'));

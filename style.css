@@ -542,6 +542,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding-top: 300px;
+    -webkit-animation-duration: 1.25s;
+    animation-duration: 1.25s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 .bottom-container {
@@ -559,6 +563,10 @@ body {
     align-items: flex-start;
     width: 801.5px;
     padding-left: 100px;
+    -webkit-animation-duration: 1.25s;
+    animation-duration: 1.25s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 .bottom-text h3 {
@@ -590,6 +598,10 @@ body {
     justify-content: end;
     margin: 20px 20px 20px 0px;
     width: 801.5px;
+    -webkit-animation-duration: 1.25s;
+    animation-duration: 1.25s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 .end-container {
@@ -604,6 +616,10 @@ body {
     justify-content: space-between;
     height: 504.44px;
     background-color: #393d46;
+    -webkit-animation-duration: 1.25s;
+    animation-duration: 1.25s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 .end-border {
@@ -690,4 +706,10 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 130px 0px 70px 0px;
+}
+
+.end-icon{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
 }
