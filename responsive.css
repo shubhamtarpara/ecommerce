@@ -260,13 +260,10 @@
         flex-direction: column;
     } 
 
-    .photo-container img{
-        width: 378px;
-        height: 527px;
-        margin: 0;
-    }
 .brand-icon{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 .photo-collection{
@@ -274,6 +271,6 @@
 }
 
 .first-half{
-    height: 938px;
+    height: 2018px;
 }
 }
