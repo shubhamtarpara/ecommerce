@@ -9,7 +9,7 @@ const observer = new IntersectionObserver(entries => {
   });
 });
 
-observer.observe(document.querySelector('.shop-container'));
+observer.observe(document.querySelector('.shop-title'));
 
 
 
@@ -25,7 +25,7 @@ const observer1 = new IntersectionObserver(entries => {
   });
 });
 
-observer1.observe(document.querySelector('.shop-container'));
+observer1.observe(document.querySelector('.shop-product'));
 
 
 
@@ -42,7 +42,7 @@ const observer2 = new IntersectionObserver(entries => {
   });
 });
 
-observer2.observe(document.querySelector('.overlay-container'));
+observer2.observe(document.querySelector('.box-container'));
 
 
 
@@ -61,7 +61,7 @@ const observer5 = new IntersectionObserver(entries => {
   });
 });
 
-observer5.observe(document.querySelector('.second-half'));
+observer5.observe(document.querySelector('.brand-icon'));
 
 
 
@@ -77,7 +77,7 @@ const observer3 = new IntersectionObserver(entries => {
   });
 });
 
-observer3.observe(document.querySelector('.main-collection'));
+observer3.observe(document.querySelector('.first-collection'));
 
 
 
@@ -94,7 +94,7 @@ const observer4 = new IntersectionObserver(entries => {
   });
 });
 
-observer4.observe(document.querySelector('.main-collection'));
+observer4.observe(document.querySelector('.second-collection'));
 
 
 
@@ -112,12 +112,12 @@ const observer6 = new IntersectionObserver(entries => {
   });
 });
 
-observer6.observe(document.querySelector('.bottom-container'));
+observer6.observe(document.querySelector('.bottom-text'));
 
 
+  
 
-
-const fadeRightImg = document.querySelector('.bottom-img ')
+const fadeRightImg = document.querySelector('.bottom-img')
 
 const observer7 = new IntersectionObserver(entries => {
   entries.forEach(entry => {
@@ -128,7 +128,7 @@ const observer7 = new IntersectionObserver(entries => {
   });
 });
 
-observer7.observe(document.querySelector('.bottom-container'));
+observer7.observe(document.querySelector('.bottom-img'));
 
 
 
@@ -143,4 +143,4 @@ const observer8 = new IntersectionObserver(entries => {
   });
 });
 
-observer8.observe(document.querySelector('.end-container'));
+observer8.observe(document.querySelector('.end-img-container'));
