@@ -53,7 +53,7 @@
 
     }
 
-    .title-text h1 {
+    .title-text h2 {
         font-size: 60px;
     }
 
@@ -79,7 +79,7 @@
         margin: 70px 15px 170px 15px;
     }
 
-    .overlay-container h1 {
+    .overlay-container h2 {
         font-size: 36px;
         padding: 70px 20px 30px 20px;
     }
@@ -212,7 +212,7 @@
         padding-top: 30px;
     }
 
-    .shop-title h1 {
+    .shop-title h2 {
         font-size: 40px;
     }
 
@@ -226,7 +226,7 @@
         margin: 70px 15px 70px 15px;
     }
 
-    .overlay-container h1 {
+    .overlay-container h2 {
         font-size: 30px;
         padding-left: 33px;
     }

@@ -1,3 +1,24 @@
+
+let noti = document.querySelector('h1');
+let button = document.getElementsByClassName('btn-text');
+for(but of button){
+  but.addEventListener('click', (e)=>{
+    let add = Number(noti.getAttribute('data-count') || 0);
+    noti.setAttribute('data-count', add +1);
+    console.log(add)
+    noti.classList.add('zero')
+
+  })
+}
+
+
+
+
+
+
+
+
+
 const fadeInUp = document.querySelector('.shop-title')
 
 const observer = new IntersectionObserver(entries => {
@@ -115,7 +136,7 @@ const observer6 = new IntersectionObserver(entries => {
 observer6.observe(document.querySelector('.bottom-text'));
 
 
-  
+
 
 const fadeRightImg = document.querySelector('.bottom-img')
 
@@ -144,3 +165,5 @@ const observer8 = new IntersectionObserver(entries => {
 });
 
 observer8.observe(document.querySelector('.end-img-container'));
+
+

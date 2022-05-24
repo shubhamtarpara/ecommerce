@@ -76,6 +76,26 @@ body {
     display: contents;
 }
 
+
+h1:before {
+    content: attr(data-count);
+    color: white;
+    position: absolute;
+    right: 298px;
+    font-size: 15px;
+    text-align: center;
+    top: 50px;
+    width: 20px;
+    height: 20px;
+    background-color: #393d46;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+h1.zero:before{
+    opacity: 1;
+}
+
 /* 
 .first-active{
     background-color: #939599;
@@ -130,7 +150,7 @@ body {
     margin-left: 99px;
 }
 
-.title-text h1 {
+.title-text h2 {
     color: #393D46;
     font-family: "Poppins", Sans-serif;
     font-size: 100px;
@@ -205,7 +225,7 @@ body {
     animation-fill-mode: both;
 }
 
-.shop-title h1 {
+.shop-title h2 {
     color: #393D46;
     font-family: "Poppins", Sans-serif;
     font-size: 60px;
@@ -327,7 +347,7 @@ body {
 
 }
 
-.overlay-container h1 {
+.overlay-container h2 {
     color: #FFFFFF;
     font-family: "Poppins", Sans-serif;
     font-size: 60px;
