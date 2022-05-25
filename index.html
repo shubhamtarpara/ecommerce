@@ -9,13 +9,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/8325756686.js" crossorigin="anonymous"></script>
-   
+
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.css" />
 </head>
 
-<body>
-    <div class="main-container">
+<body >
+    <div class="main-container">    
         <div class="navbar-container">
             <nav class="navbar navbar-dark bg-dark">
                 <div class="container-fluid">
@@ -31,7 +31,10 @@
             <div class="icons">
                 <i class="fa-solid fa-magnifying-glass fa-2x"></i>
                 <i class="fa-solid fa-heart fa-2x"></i>
-                <h1><i class="fa-solid fa-basket-shopping"></i></h1>
+                <h1><a href="cart.html" class="cart">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <span class="count">0</span>
+                    </a></h1>
 
                 <button class="btn">Login</button>
             </div>
@@ -60,7 +63,7 @@
                     warm in style.
                 </p>
             </div>
-         
+
             <div class="price-tag">
                 <span class="first-price">Price</span> &nbsp;<span class="second-price">$117.99</span>
             </div>
@@ -95,6 +98,7 @@
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
                         <span class="btn-text">ADD TO CART</span>
+                        <input type="hidden" value="15" />
                     </button>
                 </div>
             </div>
@@ -114,6 +118,7 @@
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
                         <span class="btn-text">ADD TO CART</span>
+                        <input type="hidden" value="15" />
                     </button>
                 </div>
             </div>
@@ -134,6 +139,7 @@
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
                         <span class="btn-text">ADD TO CART</span>
+                        <input type="hidden" value="15" />
                     </button>
                 </div>
             </div>
@@ -153,6 +159,7 @@
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
                         <span class="btn-text">ADD TO CART</span>
+                        <input type="hidden" value="15" />
                     </button>
                 </div>
             </div>
@@ -169,6 +176,7 @@
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
                         <span class="btn-text">ADD TO CART</span>
+                        <input type="hidden" value="15" />
                     </button>
                 </div>
             </div>
@@ -185,6 +193,7 @@
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
                         <span class="btn-text">ADD TO CART</span>
+                        <input type="hidden" value="15" />
                     </button>
                 </div>
             </div>
@@ -201,6 +210,7 @@
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
                         <span class="btn-text">ADD TO CART</span>
+                        <input type="hidden" value="15" />
                     </button>
                 </div>
             </div>
@@ -217,6 +227,7 @@
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
                         <span class="btn-text">ADD TO CART</span>
+                        <input type="hidden" value="15" />
                     </button>
                 </div>
             </div>
@@ -233,6 +244,7 @@
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
                         <span class="btn-text">ADD TO CART</span>
+                        <input type="hidden" value="15" />
                     </button>
                 </div>
             </div>
@@ -249,6 +261,7 @@
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
                         <span class="btn-text">ADD TO CART</span>
+                        <input type="hidden" value="15" />
                     </button>
                 </div>
             </div>
@@ -265,6 +278,7 @@
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
                         <span class="btn-text">ADD TO CART</span>
+                        <input type="hidden" value="15" />
                     </button>
                 </div>
             </div>
@@ -281,6 +295,7 @@
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
                         <span class="btn-text">ADD TO CART</span>
+                        <input type="hidden" value="15" />
                     </button>
                 </div>
             </div>
@@ -314,7 +329,7 @@
                     Enjoy the best prices for high quality clothing <br />
                     and accessories.
                 </p>
-                <h3>Read More</h3>
+                <h3 class="read-more">Read More</h3>
             </div>
         </div>
         <div class="main-box">
@@ -331,7 +346,6 @@
             </div>
         </div>
     </div>
-
 
     <div class="photo-container">
         <div class="first-half"></div>
@@ -430,10 +444,10 @@
                 <p>&#169; Copyright 2020. Powered by WpDeveloper</p>
             </div>
             <div class="end-icon">
-                <img class=end-icon-img src="facebook.png">
-                <img class=end-icon-img src="twitter.png">
-                <img class=end-icon-img src="linkedin-.png">
-                <img class=end-icon-img src="instagram.png">
+                <img class="end-icon-img" src="facebook.png" />
+                <img class="end-icon-img" src="twitter.png" />
+                <img class="end-icon-img" src="linkedin-.png" />
+                <img class="end-icon-img" src="instagram.png" />
             </div>
             <div class="end-brand">
                 <img src="brand.png" alt="" />

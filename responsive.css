@@ -9,7 +9,10 @@
         width: 100px;
         height: 102px;
     }
-
+h1:before{
+    right: 169px;
+    top: 27px;
+}
     .mobile-menu {
         top: 102px;
     }
@@ -172,6 +175,17 @@
         align-items: flex-start;
         width: 198px;
     }
+
+    
+    .brand-icon img {
+        padding: 10px;
+        opacity: 0.5;
+    }
+
+    .brand-icon img:hover {
+        opacity: 1;
+    }
+
 }
 
 @media only screen and (max-width: 441px) {
@@ -197,7 +211,11 @@
         width: 70px;
         height: 70px;
     }
+h1:before{
+    right: 201px;
+    top: 21px;
 
+}
     .mobile-menu {
         top: 147px;
     }
