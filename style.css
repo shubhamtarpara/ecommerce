@@ -76,24 +76,30 @@ body {
     display: contents;
 }
 
-.icons a{   
+.icons a {
     color: #212529;
 }
 
 
-a{
-text-decoration: none;
+a {
+    text-decoration: none;
 }
 
-.count{
-    padding: 4px;
+.count {
     font-size: 24px;
     position: relative;
     background-color: lightcoral;
     left: -24px;
     top: -15px;
-    border-radius: 100%;
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;
+    line-height: 31px;
+    display: inline-block;
+    text-align: center;
+    padding-right: 2px;
 }
+
 /* 
 .first-active{
     background-color: #939599;
@@ -778,10 +784,10 @@ text-decoration: none;
     -webkit-box-shadow: 0 8px 6px -6px #4947479f;
     -moz-box-shadow: 0 8px 6px -6px #4947479f;
     box-shadow: 0 8px 6px -6px #4947479f;
-    font-family: "Open Sans", -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-.head-title{
+.head-title {
     font-size: 1.5rem;
     text-transform: uppercase;
     margin: 1em 0;
@@ -789,7 +795,7 @@ text-decoration: none;
     color: #F56A6A;
 }
 
-.head-subtitle{
+.head-subtitle {
     display: flex;
     width: 176px;
     align-items: center;
