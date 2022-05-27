@@ -99,10 +99,11 @@
                 <div class="buy-button">
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
-                        <span class="btn-text">ADD TO CART</span>
+                        <span  onclick="myFunction()"class="btn-text">ADD TO CART</span>
+                        <div id="snackbar">Added to cart</div>
                         <input type="hidden" value="15" />
                     </button>
-                </div>
+                </div> 
             </div>
 
             <div class="shop-cart">
@@ -119,7 +120,8 @@
                 <div class="buy-button">
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
-                        <span class="btn-text">ADD TO CART</span>
+                        <span onclick="myFunction()" class="btn-text">ADD TO CART</span>
+                        <div id="snackbar">Added to cart</div>
                         <input type="hidden" value="15" />
                     </button>
                 </div>
@@ -140,7 +142,8 @@
                 <div class="buy-button">
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
-                        <span class="btn-text">ADD TO CART</span>
+                        <span  onclick="myFunction()"class="btn-text">ADD TO CART</span>
+                        <div id="snackbar">Added to cart</div>
                         <input type="hidden" value="15" />
                     </button>
                 </div>
@@ -160,7 +163,8 @@
                 <div class="buy-button">
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
-                        <span class="btn-text">ADD TO CART</span>
+                        <span  onclick="myFunction()"class="btn-text">ADD TO CART</span>
+                        <div id="snackbar">Added to cart</div>
                         <input type="hidden" value="15" />
                     </button>
                 </div>
@@ -177,7 +181,8 @@
                 <div class="buy-button">
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
-                        <span class="btn-text">ADD TO CART</span>
+                        <span  onclick="myFunction()"class="btn-text">ADD TO CART</span>
+                        <div id="snackbar">Added to cart</div>
                         <input type="hidden" value="15" />
                     </button>
                 </div>
@@ -194,7 +199,8 @@
                 <div class="buy-button">
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
-                        <span class="btn-text">ADD TO CART</span>
+                        <span onclick="myFunction()"class="btn-text">ADD TO CART</span>
+                        <div id="snackbar">Added to cart</div>
                         <input type="hidden" value="15" />
                     </button>
                 </div>
@@ -211,7 +217,8 @@
                 <div class="buy-button">
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
-                        <span class="btn-text">ADD TO CART</span>
+                        <span  onclick="myFunction()"class="btn-text">ADD TO CART</span>
+                        <div id="snackbar">Added to cart</div>
                         <input type="hidden" value="15" />
                     </button>
                 </div>
@@ -228,7 +235,8 @@
                 <div class="buy-button">
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
-                        <span class="btn-text">ADD TO CART</span>
+                        <span  onclick="myFunction()"class="btn-text">ADD TO CART</span>
+                        <div id="snackbar">Added to cart</div>
                         <input type="hidden" value="15" />
                     </button>
                 </div>
@@ -245,7 +253,8 @@
                 <div class="buy-button">
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
-                        <span class="btn-text">ADD TO CART</span>
+                        <span  onclick="myFunction()"class="btn-text">ADD TO CART</span>
+                        <div id="snackbar">Added to cart</div>
                         <input type="hidden" value="15" />
                     </button>
                 </div>
@@ -262,7 +271,8 @@
                 <div class="buy-button">
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
-                        <span class="btn-text">ADD TO CART</span>
+                        <span  onclick="myFunction()"class="btn-text">ADD TO CART</span>
+                        <div id="snackbar">Added to cart</div>
                         <input type="hidden" value="15" />
                     </button>
                 </div>
@@ -279,7 +289,8 @@
                 <div class="buy-button">
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
-                        <span class="btn-text">ADD TO CART</span>
+                        <span  onclick="myFunction()" class="btn-text">ADD TO CART</span>
+                        <div id="snackbar">Added to cart</div>
                         <input type="hidden" value="15" />
                     </button>
                 </div>
@@ -296,7 +307,8 @@
                 <div class="buy-button">
                     <button class="buy-btn">
                         <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255)"></i>
-                        <span class="btn-text">ADD TO CART</span>
+                        <span onclick="myFunction()" class="btn-text">ADD TO CART</span>
+                        <div id="snackbar">Added to cart</div>
                         <input type="hidden" value="15" />
                     </button>
                 </div>
@@ -457,7 +469,13 @@
             </div>
         </div>
     </div>
-
+<script>
+    function myFunction() {
+  var x = document.getElementById("snackbar");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 1000);
+}
+</script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>

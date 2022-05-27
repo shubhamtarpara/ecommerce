@@ -14,7 +14,12 @@ body {
 
 
 }
-
+/* .BgColour {
+    color: white;
+    transition: all 1s;
+    background-color: black;
+    border-bottom: 1px solid lightgray;
+} */
 .navbar {
     padding: 0;
     width: 150px;
@@ -67,6 +72,10 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-right: 150px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
 
 }
 
@@ -810,3 +819,27 @@ a {
     letter-spacing: 1px;
     color: #4d4d4d;
 }
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: rgb(80, 214, 18);
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 88%;
+    /* top: 100px; */
+    bottom: 1651px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, 
+  }
+  

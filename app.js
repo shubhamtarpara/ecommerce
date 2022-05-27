@@ -359,3 +359,15 @@ displayCart();
 //   })
 // }
 
+// function scrollValue() {
+//   var navbar = document.getElementsByClassName('main-container');
+//   var scroll = window.scrollY;
+//   if (scroll < 100) {
+//     navbar.classList.add('BgColour');
+//   } else {
+//       navbar.classList.add('BgColour');
+//   }
+// }
+
+// window.addEventListener('scroll', scrollValue);
+
