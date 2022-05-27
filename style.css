@@ -57,6 +57,11 @@ body {
 
 }
 
+.text-dec a {
+    text-decoration: none;
+    color: white    ;
+}
+
 .main-container {
     display: flex;
     justify-content: space-between;

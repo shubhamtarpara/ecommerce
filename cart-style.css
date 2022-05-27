@@ -26,14 +26,20 @@
 
 .head-subtitle{
     display: flex;
-    width: 176px;
+    width: 200px;
     align-items: center;
-    justify-content: space-between;
     font-size: .9em;
     letter-spacing: 1px;
    
 }
 
+.cart {
+    padding-right: 4px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
 .head-subtitle a{
     text-decoration: none;
     color: #4d4d4d;
@@ -53,7 +59,7 @@
 
 
 .container-products {
-    max-width: 650px;
+    max-width:  1250px;
     justify-content: space-around;
     margin: 0 auto;
     margin-top: 50px;
@@ -69,42 +75,64 @@
 
 .product-header {
     width: 100%;
-    max-width: 650px;
+    max-width: 1250px;
     display: flex;
-    justify-content: flex-start;
-    border-bottom: 4px solid lightgray;
+    justify-content: space-between;
+    border-bottom: 4px solid #60646c;
     margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 .product-title {
     width: 45%;
 }
-
+.product-title1{
+    padding-left: 212px;
+}
 .price {
-    width: 15%;
+    width: 23%;
     border-bottom: 1px solid lightgray;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price1 {
+    padding-left: 230px;
+}
+.quantity {
+    width: 16%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.quantity {
-    width: 30%;
-    border-bottom: 1px solid lightgray;
-    display: flex;
-    align-items: center;
+.increase{
+padding-right: 46px;
+}
+
+.decrease{
+    padding-left: 46px;
+}
+
+
+.quantity1{
+    padding-right: 46px;
 }
 
 .total {
-    width: 10%;
+    width: 16%;
     border-bottom: 1px solid lightgray;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .product {
     width: 45%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 0;
     border-bottom: 1px solid lightgray;
@@ -128,15 +156,67 @@
 
 .basketTotalContainer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    margin: 33px 0 23px 0;
+    padding: 10px 10px;
+    margin-left: 810px;
+    border: 3px solid #eaeaea;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+hr{
+    transform: 90d;
+}
+
+.basketTotalTitle{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.sub{
+    padding-top: 10px;
+}
+.basketTotal{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.empty{
+    top: 60px;
+    right: 0px;
+    border-top: 3px solid #eaeaea;
+    width: 436px;
+    position: absolute;
+}
+.title-title{
+    padding-bottom: 10px;
+}
+
+.close, .decrease, .increase{
+    cursor: pointer;
+}
+
+.mainCost{
     width: 100%;
-    padding: 10px 0;
+    position: relative;
+    top: 100px;
+    margin: 50px auto 0 auto;
+    max-width: 1250px;
 }
 
-.basketTotalTitle {
-    width: 30%;
-}
 
-.basketTotal {
-    width: 10%;
-}
+.check-out{
+    display: flex;
+    width: 439px;
+    justify-content: center;
+    padding: 12px;
+    margin-left: 810px;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 5px;
+    color: white;
+    background-color: #404040;}
+
+    .check-out:hover{
+        background-color: black;
+    }
