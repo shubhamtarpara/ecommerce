@@ -219,7 +219,7 @@ function displayCart() {
               </div>
               <div class = "empty"> </div>
           <div class = "total-total">    
-              <h4 class="basketTotalTitle">$${cart},00</h4>
+              <h4 class="basketTotalTitle">$${cart},00</h4> 
               <h4 class="basketTotal sub">$${cart},00</h4>
           </div>
           </div>
@@ -325,8 +325,8 @@ function deleteButtons() {
     deleteButtons[i].addEventListener('click', () => {
       productName = deleteButtons[i].parentElement.textContent.toLocaleLowerCase().replace(/ /g, '').trim();
 
-      // localStorage.setItem('cartNumbers', productNumbers - cartItems[productName].inCart);
-      // localStorage.setItem('totalCost', cartCost - ( cartItems[productName].price * cartItems[productName].inCart));
+      localStorage.setItem('cartNumbers', productNumbers - cartItems[productName].inCart);
+      localStorage.setItem('totalCost', cartCost - ( cartItems[productName].price * cartItems[productName].inCart));
       
 
       delete cartItems[productName];
