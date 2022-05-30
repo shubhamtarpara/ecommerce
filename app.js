@@ -199,8 +199,10 @@ function displayCart() {
     Object.values(cartItems).map((item, index) => {
       productContainer.innerHTML +=
         `<div class="product"><i class="fa-solid fa-circle-xmark close"></i></i><img src="./images/${item.tag}.png"/>
+        <div class = "product-name">
               <span class="sm-hide">${item.name}</span>
           </div>
+              </div>
           <div class="price sm-hide">$${item.price},00</div>
           <div class="quantity">
           <i class="fa-solid fa-circle-left decrease"></i></ion-icon>
@@ -314,8 +316,7 @@ function manageQuantity() {
 
 function deleteButtons() {
   let deleteButtons = document.querySelectorAll(".close");
-  let productNumbers = localStorage.getItem('cartNumbers');
-  let cartCost = localStorage.getItem("totalCost");
+
   let cartItems = localStorage.getItem('productsInCart');
   cartItems = JSON.parse(cartItems);
   let productName;
@@ -325,8 +326,7 @@ function deleteButtons() {
     deleteButtons[i].addEventListener('click', () => {
       productName = deleteButtons[i].parentElement.textContent.toLocaleLowerCase().replace(/ /g, '').trim();
 
-      localStorage.setItem('cartNumbers', productNumbers - cartItems[productName].inCart);
-      localStorage.setItem('totalCost', cartCost - ( cartItems[productName].price * cartItems[productName].inCart));
+   
       
 
       delete cartItems[productName];
