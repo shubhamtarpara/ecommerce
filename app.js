@@ -316,7 +316,8 @@ function manageQuantity() {
 
 function deleteButtons() {
   let deleteButtons = document.querySelectorAll(".close");
-
+  let productNumbers = localStorage.getItem('cartNumbers');
+  let cartCost = localStorage.getItem("totalCost");
   let cartItems = localStorage.getItem('productsInCart');
   cartItems = JSON.parse(cartItems);
   let productName;
@@ -326,6 +327,8 @@ function deleteButtons() {
     deleteButtons[i].addEventListener('click', () => {
       productName = deleteButtons[i].parentElement.textContent.toLocaleLowerCase().replace(/ /g, '').trim();
 
+      localStorage.setItem('cartNumbers', productNumbers - cartItems[productName].inCart);
+      localStorage.setItem('totalCost', cartCost - ( cartItems[productName].price * cartItems[productName].inCart));
    
       
 
