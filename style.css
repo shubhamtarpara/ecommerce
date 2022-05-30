@@ -125,7 +125,7 @@ a {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 150px;
+    top: 149px;
     z-index: 1;
 }
 
@@ -161,7 +161,7 @@ a {
 }
 
 .text-container {
-    margin-top: 184px;
+    margin-top: 143px;
     margin-left: 99px;
 }
 
@@ -185,13 +185,13 @@ a {
 
 .image-container {
     padding-left: 125PX;
+    
 
 }
 
 .image-container img {
     margin-top: 70px;
-    width: 626px;
-    height: 700px;
+
 }
 
 .price-tag {
