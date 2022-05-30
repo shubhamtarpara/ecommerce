@@ -71,10 +71,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 150px;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+    padding-right: 150px;   
     width: 100%;
 
 }
@@ -401,9 +398,9 @@ a {
     background-color: white;
 }
 
-.read-more {
+/* .read-more {
     padding-top: 28px;
-}
+} */
 
 .box-icon {
     margin-bottom: 35px;
@@ -782,12 +779,12 @@ a {
 .end-icon-img {
     cursor: pointer;
     transition: all .2s ease-in-out;
-    opacity: 0.5;
+   
 }
 
 .end-icon-img:hover {
     transform: scale(1.2);
-    opacity: 1;
+    
 }
 
 .header-bar {

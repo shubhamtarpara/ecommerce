@@ -106,7 +106,9 @@ h1:before{
         flex-direction: column;
     }
 
-
+.read-more{
+    padding-top: 28px;
+}
     .first-half {
         height: 1409px;
         background: rgb(238, 239, 243);
@@ -215,6 +217,10 @@ h1:before{
     right: 201px;
     top: 21px;
 
+}
+
+.read-more{
+    padding-top: 0px;
 }
     .mobile-menu {
         top: 147px;
