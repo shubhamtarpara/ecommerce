@@ -97,6 +97,7 @@
     border-bottom: 4px solid #60646c;
     margin: 0 auto;
     padding-bottom: 10px;
+    color: #F56A6A;
     font-size: x-large;
 }
 
@@ -155,10 +156,6 @@ padding-right: 46px;
     border-bottom: 1px solid lightgray;
 }
 
-.product ion-icon {
-    cursor: pointer;
-    
-}
 
 .products {
     width: 100%;
