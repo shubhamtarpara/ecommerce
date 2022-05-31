@@ -234,7 +234,8 @@ a {
 }
 
 .shop-container {
-    padding: 130px 150px 75px 150px
+    width: 1586px;
+    margin: auto;
 }
 
 .shop-title {
@@ -383,7 +384,7 @@ a {
     gap: 0px 30px;
     justify-content: center;
     margin-top: -193px;
-    padding: 0px 90px 100px 90px;
+   margin-bottom: 100px;
     -webkit-animation-duration: 1.25s;
     animation-duration: 1.25s;
     -webkit-animation-fill-mode: both;
@@ -664,6 +665,8 @@ a {
     padding: 150px 150px 0px 150px;
     height: 927px;
     background-color: white;
+    width: 100%;
+    
 }
 
 .end-img-container {
