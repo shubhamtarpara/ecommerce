@@ -1,35 +1,56 @@
-@media only screen and (min-width: 1200px) and (max-width: 1400px) {
-
-    .mid-container {
-        height: auto;
-        margin: 0;
-        margin: 30px 20px 50px 20px;
-    }
-    .title-text h2 {
-        font-size: 84px;
+@media only screen and (max-width: 1680px) {
+    .shop-container {
+        max-width: 85%;
     }
 
-    .image-container img {
-    margin-top: 160px;
+    .main-collection {
+        max-width: 85%;
     }
 }
-@media only screen and (min-width: 1100px) and (max-width: 1200px) {
-    .title-text h2 {
-        font-size: 84px;
-    }
+
+
+
+@media only screen and (max-width: 1400px) {
 
     .mid-container {
         height: auto;
-        margin: 0;
-        margin: 30px 20px 50px 20px;
+        margin: 0px 150px 150px 150px;
+
+    }
+
+    .title-text h2 {
+        font-size: 84px;
     }
 
     .image-container img {
         margin-top: 160px;
-      
+    }
+
+    .shop-container {
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+    .shop-product {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
-@media only screen and (min-width: 858px) and (max-width: 1100px) {
+
+@media only screen and (max-width: 1200px) {
+
+    .shop-product {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1299px) {
+    .overlay-container h2 {
+        font-size: 53px;
+    }
+
+}
+
+@media only screen and (max-width: 1199px) {
     .main-container {
         padding: 0;
         padding-right: 20px;
@@ -41,8 +62,12 @@
 
     }
 
+    .shop-product {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .mid-container {
-        height: 483px;
+        height: auto;
         margin: 0;
         margin: 30px 20px 50px 20px;
     }
@@ -53,7 +78,7 @@
         justify-content: center;
         align-items: flex-start;
         margin: 0;
-        padding: 30px 30px 30px 30px;
+        padding: 30px 30px 30px 130px;
     }
 
     .image-container {
@@ -64,16 +89,32 @@
 
     .image-container img {
         margin-top: 0;
-        width: 378px;
-        height: 423px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .shop-container {
+        max-width: 95%;
+    }
+
+    .main-collection {
+        max-width: 95%;
+    }
+
+    .overlay-container h2 {
+        font-size: 36px;
     }
 
     .title-text h2 {
-        font-size: 50px;
+        font-size: 84px;
     }
+
+
+
+    .image-container img {}
 }
 
-@media only screen and (max-width: 858px) {
+@media only screen and (max-width: 991px) {
     body {
         width: 100%;
         margin: 0;
@@ -108,14 +149,14 @@
 
     .image-container {
         padding-top: 60px;
-        padding-left: 0;
+        padding-left: 0px;
         width: 100%;
     }
 
     .image-container img {
         margin-top: 0;
-        width: 378px;
-        height: 423px;
+        width: 100%;
+        height: 100%;
     }
 
     .text-container {
@@ -128,7 +169,7 @@
     }
 
     .price-tag {
-        margin-top: 40px;
+        margin-top: 0;
         margin-bottom: 30px;
 
     }
@@ -142,8 +183,9 @@
     }
 
     .shop-container {
-        width: 793px;
-        margin: auto;
+        max-width: 95%;
+        margin: 30px auto;
+
     }
 
     .shop-title {
@@ -156,6 +198,7 @@
     }
 
     .overlay-container {
+        font-size: 36px;
         margin: 70px 15px 170px 15px;
     }
 
@@ -166,13 +209,8 @@
 
     .box-container {
         margin-top: -469px;
-        grid-template-columns: repeat(3, 212px);
         padding-bottom: 80px;
-    }
-
-    .main-box {
-        padding: 30px 20px 30px 20px;
-        width: 212px;
+        max-width: 95%;
     }
 
     .photo-container {
@@ -183,8 +221,20 @@
         flex-direction: column;
     }
 
+    .first-collection {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .second-collection {
+        margin: 0;
+        margin-top: 15px;    
+    }
+
     .read-more {
-        padding-top: 28px;
+        position: absolute;
+        bottom: 108px;
+        padding-bottom: 20px;
     }
 
     .first-half {
@@ -266,9 +316,14 @@
         opacity: 1;
     }
 
+    .main-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
 }
 
-@media only screen and (max-width: 441px) {
+@media only screen and (min-width: 441px) and (max-width: 741px) {
 
     .main-container {
         flex-direction: column-reverse;
@@ -296,10 +351,6 @@
         right: 201px;
         top: 21px;
 
-    }
-
-    .read-more {
-        padding-top: 0px;
     }
 
     .mobile-menu {
@@ -336,16 +387,14 @@
     }
 
     .box-container {
-        grid-template-columns: repeat(1, 350px);
-        gap: 30px 0;
+        flex-direction: column;
         padding: 0 0 46px 0;
         margin-top: -1149px;
     }
+.read-more{
+    position: unset;
+}
 
-    .main-box {
-        width: 350px;
-        height: 330px;
-    }
 
     .photo-container {
         height: auto;
