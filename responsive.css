@@ -6,6 +6,10 @@
     .main-collection {
         max-width: 85%;
     }
+
+    .overlay-container{
+        max-width: 85%;
+    }
 }
 
 
@@ -109,9 +113,21 @@
         font-size: 84px;
     }
 
+    .overlay-container{
+        max-width: 95%;
+        margin: 70px auto 170px auto;
+    }
+    .box-container {
+       
+    margin-top: -345px;
+        padding-bottom: 80px;
+        max-width: 85%;
+    }
+.read-more{
+    bottom: 73px;
+}
 
 
-    .image-container img {}
 }
 
 @media only screen and (max-width: 991px) {
@@ -199,7 +215,7 @@
 
     .overlay-container {
         font-size: 36px;
-        margin: 70px 15px 170px 15px;
+        
     }
 
     .overlay-container h2 {
@@ -377,8 +393,8 @@
     }
 
     .overlay-container {
-        height: 1278px;
-        margin: 70px 15px 70px 15px;
+        height: 1378px;
+        margin: 70px auto auto auto;
     }
 
     .overlay-container h2 {
@@ -389,7 +405,7 @@
     .box-container {
         flex-direction: column;
         padding: 0 0 46px 0;
-        margin-top: -1149px;
+        margin-top: -1223px;
     }
 .read-more{
     position: unset;

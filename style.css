@@ -364,9 +364,11 @@ a {
 }
 
 .overlay-container {
+    max-width: 1599px;
+    width: 100%;
     height: 453px;  
     background-color: #393d46;
-    margin: 130px 150px 0px 150px;
+    margin: 130px auto;
 
 }
 
@@ -447,9 +449,9 @@ a {
 }
 
 .read-more{
-    position: absolute;
-    bottom: 10px;
-    padding-bottom: 20px;
+    /* position: absolute; */
+    /* bottom: 10px;
+    padding-bottom: 20px; */
 }
 
 .photo-container {
