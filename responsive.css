@@ -75,7 +75,9 @@
         margin: 0;
         margin: 30px 20px 50px 20px;
     }
-
+.bottom-container{
+    margin: 30px 20px 50px 20px;
+}
     .text-container {
         flex-direction: column;
         display: flex;
@@ -239,12 +241,12 @@
 
     .first-collection {
         margin: 0;
-        margin-bottom: 15px;
+        margin-right: 15px;
     }
 
     .second-collection {
         margin: 0;
-        margin-top: 15px;    
+        margin-left: 15px;    
     }
 
     .read-more {
@@ -418,17 +420,20 @@
     }
 
     .main-collection {
+        display: grid;
+        gap: 76px 20px;
+        grid-template-columns: repeat(1, 1fr);
         margin-top: 203px;
-        padding: 0 20px 20px 20px;
     }
 
     .first-collection {
+
         margin-top: 100px;
         padding: 10px 10px 10px 21px;
         width: 100%;
         height: 100%;
         justify-content: center;
-        flex-direction: column;
+        /* flex-direction: column; */
 
     }
 
@@ -438,7 +443,8 @@
         width: 100%;
         height: 100%;
         justify-content: center;
-        flex-direction: column;
+        /* flex-direction: column; */
+        margin: 0;
     }
 
     .brand-icon {
